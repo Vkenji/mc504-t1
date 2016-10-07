@@ -1,0 +1,11 @@
+1. falta implementar uma barreira para que os imigrantes que fazem checkIn() esperam o confirm() do
+juiz.
+
+o juiz so pode dar confirm() depois de todos os imigrantes q estao dentro darem checkIn().
+o juiz ira dormir esperando sinal (futex).
+os imigrantes que darem checkIn() ficam presos numa barreira.
+o ultimo imigrante q da checkIn() tem q mandar um sinal (futex) para acordar o juiz.
+
+
+2. falta criar os loops de criacao dos threads
+
